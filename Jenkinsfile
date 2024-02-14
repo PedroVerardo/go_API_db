@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage ('build') {
             steps {
-                go version
+                docker -v
             }
         }
     }
