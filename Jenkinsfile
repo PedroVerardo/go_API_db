@@ -1,7 +1,8 @@
 pipeline {
     agent any
+
     stages {
-        stage('build') {
+        stage ('build') {
             step {
                 go build -o app
                 ./app
