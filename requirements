@@ -1,0 +1,5 @@
+-- ferramentas de terminal
+obs: podem ser baixadas no go também, vale o teste para fazer tipo um requirements e testar dps
+
+sqlc > for compile sql code into go code (https://sqlc.dev/)
+migration > for database versioning (https://github.com/golang-migrate/migrate)

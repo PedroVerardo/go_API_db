@@ -1,0 +1,10 @@
+pipeline{
+    agent any
+
+    stages('test'){
+        step{
+            cd meu_projeto_go/
+            ./my_app
+        }
+    }
+}
