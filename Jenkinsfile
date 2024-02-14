@@ -3,7 +3,7 @@ pipeline {
 
     stages {
         stage ('build') {
-            step {
+            steps {
                 go build -o app
             }
         }
