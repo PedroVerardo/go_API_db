@@ -1,10 +1,10 @@
 pipeline{
     agent any
 
-    stages('test'){
+    stages('build'){
         step{
-            cd meu_projeto_go/
-            ./my_app
+            go build -o app
+            ./app
         }
     }
 }
